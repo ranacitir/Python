@@ -2,11 +2,11 @@ import pygame
 import random
 
 pygame.init()
-win = pygame.display.set_mode((700, 483))           # PENCERE AÇMA
+win = pygame.display.set_mode((700, 483))           
 pygame.display.set_caption("Steve")
 
 walkRight = pygame.image.load('kangaroojump.png')
-bg = pygame.image.load('desert4.png')               # GÖRSEL YÜKLEME
+bg = pygame.image.load('desert4.png')               
 zemin = pygame.image.load('zemin6.png')
 jump = pygame.image.load('kangaroojump.png')
 sun = pygame.image.load('sun1.png')
